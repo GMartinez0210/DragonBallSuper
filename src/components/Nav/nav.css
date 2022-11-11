@@ -1,0 +1,8 @@
+.nav-brand {
+    width: clamp(150px, 60%, 300px);
+    text-align: center;
+}
+
+.nav-brand-logo {
+    width: clamp(150px, 60%, 300px);
+}

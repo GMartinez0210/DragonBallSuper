@@ -1,0 +1,28 @@
+.filter-container {
+    width: max-content;
+    list-style: none;
+    
+    padding: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+.filter-link {
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #000;
+
+    padding: 1.5rem;
+}
+
+@media (min-width: 576px) {
+    .filter-container {
+        flex-direction: column;
+        column-gap: unset;
+        row-gap: 1.5rem;
+    }
+}
